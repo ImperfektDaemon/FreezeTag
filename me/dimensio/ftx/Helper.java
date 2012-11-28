@@ -32,42 +32,6 @@ public class Helper {
         player.sendMessage(GREEN + "If you're not a chaser, find your frozen brothers and tag them to unfreeze them! You win by surviving until the game ends.");
         player.sendMessage(" ");
     }
-    public void getPermissions(Player player) {
-        PluginDescriptionFile pdfFile = plugin.getDescription();
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "FreezeTagX v" + ChatColor.WHITE + pdfFile.getVersion() + GREEN + " Commands:");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.reg - this permission allows the user/group to start a new game registration.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.begin - this permission allows the user/group to begin the game.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.cancel - this permission allows the user/group to cancel the countdown.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.endgame - this permission allows the user/group to end the game in progress.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.reg - this permission allows the user/group to start a new game registration.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.begin - this permission allows the user/group to begin the game.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.cancel - this permission allows the user/group to cancel the countdown.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "ftx.admin.endgame - this permission allows the user/group to end the game in progress.");
-        player.sendMessage(" ");
-    }
-    public void getCommands(Player player) {
-        PluginDescriptionFile pdfFile = plugin.getDescription();
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "FreezeTagX v" + ChatColor.WHITE + pdfFile.getVersion() + GREEN + " rules:");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "Remember playing Freeze Tag as a kid? This is the same, but in Minecraft!");
-        player.sendMessage(GREEN + "If there is a game in progress, type '/ftx join' (without quotes) to register for the game.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "When the game begins, you will be told who the " + ChatColor.WHITE + "CHASERS" + GREEN + " are.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "If you're a chaser, find un-frozen players and tag them to freeze them. You win by freezing every player.");
-        player.sendMessage(" ");
-        player.sendMessage(GREEN + "If you're not a chaser, find your frozen brothers and tag them to unfreeze them! You win by surviving until the game ends.");
-        player.sendMessage(" ");
-    }
+    
     
 }
