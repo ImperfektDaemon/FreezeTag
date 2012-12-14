@@ -105,6 +105,16 @@ public class Config extends JavaPlugin {
             customConfig2.set("arena.area.p2", 0);
             arena = false;
         }
+ public void clearLobby() {
+        
+
+        if (new File(plugin.getDataFolder(), "arena.yml").exists()) {
+            customConfig2.set("arena.lobby.defined", false);
+            customConfig2.set("arena.lobby.world", 0);
+            customConfig2.set("arena.lobby.p1", 0);
+            customConfig2.set("arena.lobby.p2", 0);
+            lobby = false;
+        }
     }
     public void reloadCustomConfig() {
         if (customConfigFile == null) {
